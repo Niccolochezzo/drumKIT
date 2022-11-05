@@ -1,0 +1,42 @@
+body {
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.keys {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 40px;
+}
+
+.key {
+  text-align: center;
+  width: 100px;
+  border: 6px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.4);
+  transition: all 0.07s;
+}
+
+.playing {
+  transform: scale(1.2);
+  border-color: #ffc600;
+  box-shadow: 0 0 10px #ffc600;
+}
+
+.sound {
+  color: yellow;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+kbd {
+  color: white;
+  font-size: 42px;
+  display: block;
+  margin-bottom: 10px;
+}
